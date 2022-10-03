@@ -1,0 +1,26 @@
+{
+  "name": "chatnodejs",
+  "version": "1.0.0",
+  "description": "Chat desarrollado en copia al tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaulMtzFlores/chat-nodejs.git"
+  },
+  "author": "Tony, Joel, Elsa y Saúl.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaulMtzFlores/chat-nodejs/issues"
+  },
+  "homepage": "https://github.com/SaulMtzFlores/chat-nodejs#readme",
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
+  }
+}
